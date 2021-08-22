@@ -12,6 +12,9 @@ module.exports = {
     },
     assert: {
       preset: 'lighthouse:recommended',
+      assetions: {
+        'csp-xss': 'off',
+      },
     },
   },
 };
