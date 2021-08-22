@@ -12,8 +12,10 @@ module.exports = {
     },
     assert: {
       preset: 'lighthouse:recommended',
-      assetions: {
-        'csp-xss': 'off',
+      assertions: {
+        'csp-xss': 'warn',
+        'service-worker': 'warn',
+        'splash-screen': 'warn',
       },
     },
   },
