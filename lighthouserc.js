@@ -11,11 +11,9 @@ module.exports = {
       target: 'temporary-public-storage',
     },
     assert: {
-      preset: 'lighthouse:recommended',
+      preset: 'lighthouse:no-pwa',
       assertions: {
         'csp-xss': 'warn',
-        'service-worker': 'warn',
-        'splash-screen': 'warn',
       },
     },
   },
